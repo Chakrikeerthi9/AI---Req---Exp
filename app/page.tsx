@@ -1,4 +1,5 @@
 "use client"
+
 import Header from "./components/Header";
 import RequirementForm from "./components/RequirementForm";
 import ResultTable from "./components/ResultTable";
@@ -24,7 +25,7 @@ export default function Home() {
     try {const res= await axios.post('/api', {text: requirement});
         const extractedData = res.data.extractedData;
         setData((prevResults:ExtractedData[]) => [...prevResults, ...extractedData]);
-        setCount(count) // Append new results to the existing state
+        console.log(count) // Append new results to the existing state
       }
     catch (error) {
           console.error('Error:', error);

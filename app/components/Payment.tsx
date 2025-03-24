@@ -18,7 +18,7 @@ const Payment = () => {
                   className="bg-purple-400 rounded-full px-8 py-2 mt-4 cursor-pointer hover:bg-purple-500"
                   onClick={()=> setPaymentOpt(true)}
                   >Buy Extra Credits</button>
-                  <p className='italic font-light text-sm mt-2'>"Unlock premium features – Make a secure payment now!"</p>
+                  <p className='italic font-light text-sm mt-2'>&quot;Unlock premium features – Make a secure payment now!&quot;</p>
           </div>
       </div>
     <PaymentMethod PaymentOption={Paymentopt} onClose={()=>setPaymentOpt(false)}/>

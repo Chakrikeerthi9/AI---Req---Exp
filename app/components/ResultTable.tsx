@@ -26,7 +26,7 @@ const ResultTable: React.FC<ResultTableProps> = ({ result }) => {
                 <Table className="w-[75%] border border-gray-200 shadow-lg">
                     <TableHeader className="bg-gray-300">
                     <TableRow>
-                        <TableHead className="p-2 text-left w-44">Category</TableHead>
+                        <TableHead className="p-2 text-left w-44">Promp</TableHead>
                         <TableHead className="p-2 text-left break-words whitespace-pre-wrap">Details</TableHead>
                     </TableRow>
                     </TableHeader>

@@ -45,7 +45,7 @@ const RequirementForm: React.FC<RequirementFormProps> = ({setCount,onExtract}) =
             isEmpty && <p className="text-red-500 font-bold text-md my-4">Enter something .....!</p>
         }
         {
-            count === 0 ? <p className="text-red-500 font-bold text-xl my-4">"You've reached the limit. Please purchase more credits to continue."</p>: null
+            count === 0 ? <p className="text-red-500 font-bold text-xl my-4">&quot;You have reached the limit. Please purchase more credits to continue.&quot;</p>: null
         }
     </div>
   )
