@@ -34,6 +34,7 @@ const RequirementForm: React.FC<RequirementFormProps> = ({setCount,onExtract}) =
                 } else {
                   setCountStatus(count - 1);
                   onExtract(requirement);
+                  console.log(setCount);
                 }
               }}
             disabled={count === 0}

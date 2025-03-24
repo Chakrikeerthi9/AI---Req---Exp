@@ -7,11 +7,13 @@ interface PaymentMethodProps{
 }
 
 const PaymentMethod: React.FC<PaymentMethodProps> = ({PaymentOption, onClose}) => {
-    if (!PaymentOption) return null; // Return null if no payment option is provided
 
     const [total, setTotal] = useState(0);
     const [selected, setSelected] = useState("credit_card");
     const [isConfirmed, setIsConfirmed] = useState(false);
+
+    if (!PaymentOption) return null; // Return null if no payment option is provided
+
 
     const handlePayment = () => {
         setIsConfirmed(true);
