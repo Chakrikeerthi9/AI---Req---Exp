@@ -1,4 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Overview
+
+# Project Name: 
+AI-Powered Data Extraction Tool
+
+# Description:
+This project is a React-based web application that provides an AI-powered data extraction tool. The application allows users to input requirements, processes the input using an API call, and extracts structured data. The extracted data is displayed in a table format.
+
+# Tech Stack:
+Frontend: React, TypeScript, Tailwind CSS, shadcn/ui
+
+State Management: useState
+
+Backend API Call: Axios
+
+Component-Based Architecture
+
+## Key Features:
+# User Input Form: 
+Users enter their requirements, which are sent for processing.
+
+# Data Extraction via API: 
+Sends a POST request to /api for extracting structured information.
+
+# Dynamic Table Rendering: 
+Displays extracted results in a table format.
+
+# State Management: 
+Uses useState to handle the extracted data dynamically.
+
+# Component Structure: 
+Organized with reusable components such as Header, Title, RequirementForm, ResultTable, Payment, and Footer.
+
+# Styling: 
+Uses Tailwind CSS for modern UI design and responsiveness.
+
+# Components Overview:
+Header: Displays the application header.
+
+# Title: 
+Renders the main title of the app.
+
+# RequirementForm:  
+Accepts user input and triggers the extraction process.
+
+# ResultTable: 
+Displays extracted data dynamically.
+
+# Payment: 
+Placeholder for payment-related functionality.
+
+# Footer: 
+Contains footer information.
+
+# Workflow:
+The user enters a requirement in the form.
+
+On submission, the input is sent to an API endpoint (/api) via Axios.
+
+The response (structured data) is stored in the state (useState).
+
+The ResultTable dynamically renders the extracted data.
+
+
+## Deploy on Vercel
+
+Check out in Vercel : (https://ai-req-mgouub43u-chakris-projects-a2defa01.vercel.app/)
+
+
 
 ## Getting Started
 
@@ -29,6 +97,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-Check out in Vercel : (https://ai-req-mgouub43u-chakris-projects-a2defa01.vercel.app/)

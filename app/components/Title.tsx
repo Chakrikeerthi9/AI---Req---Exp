@@ -9,9 +9,9 @@ const Title = () => {
         <div>
         <p className='font-light italic mx-4 pt-5'>
           &quot;The AI-Powered Requirement Extraction with Credit Management project utilizes AI to
-           automatically extract key software requirements from user input, such as specifications 
-           or documents. It categorizes features, user needs, and other critical information for 
-           streamlined decision-making. Integrated credit management allows users to track and manage
+           automatically extract key software requirements from user input.
+           The application allows users to input requirements, processes the input using an API call, and extracts structured data.
+            Integrated credit management allows users to track and manage
             credits for accessing premium features. This combination of AI insights and credit control optimizes
              resource allocation and enhances the evaluation process of software products and vendors.&quot;
         </p>
