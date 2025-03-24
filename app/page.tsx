@@ -34,8 +34,8 @@ export default function Home() {
 
 
   return (
-    <div className="bg-gradient-to-b from-gray-200 to-gray-500 bg-cover h-full text-center" >
-      <div className="max-w-8xl mx-auto bg-sky-50 rounded-lg shadow-lg">
+    <div className="bg-gradient-to-b from-gray-200 to-gray-500 bg-cover h-full text-center w-[100%]" >
+      <div className="mx-auto bg-sky-50 rounded-lg shadow-lg w-8xl">
         <Header />
         <Title />
         <RequirementForm setCount={setCount} onExtract={handleExtract}/>

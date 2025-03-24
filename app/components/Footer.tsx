@@ -3,7 +3,7 @@ import { Facebook,Twitter,Linkedin,Instagram } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <div className='bg-sky-300 h-50 rounded-md items-center text-center mt-25'>
+    <div className='w-[100%] bg-sky-300 h-50 rounded-md items-center text-center mt-25'>
       <div className='grid grid-cols-2 h-40 w-180 mx-auto'>
         <div className='flex flex-col justify-center items-center'>
           <p className="text-md my-1">Stay updated with AI innovations!</p>

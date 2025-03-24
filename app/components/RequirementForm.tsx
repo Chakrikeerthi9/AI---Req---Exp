@@ -15,7 +15,7 @@ const RequirementForm: React.FC<RequirementFormProps> = ({setCount,onExtract}) =
   return (
 
     // Requirement Form Container
-    <div className='bg-gray-50 p-6'>
+    <div className='bg-gray-50 p-6 w-[100%]'>
       <div  className="flex flex-row justify-center">
         <Textarea className='border-2 border-gray-300 rounded-md p-2 w-138 h-25'
         rows={10}

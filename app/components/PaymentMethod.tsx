@@ -29,7 +29,7 @@ const PaymentMethod: React.FC<PaymentMethodProps> = ({PaymentOption, onClose}) =
         // Payment Method Modal
         // This div acts as a backdrop for the modal
         // It covers the entire screen with a semi-transparent black background
-        <div className='fixed inset-0 bg-black/50 backdrop-blur-sm flex flex-col justify-center items-center'>
+        <div className='fixed inset-0 bg-black/50 backdrop-blur-sm flex flex-col justify-center items-center w-[100%]'>
             <button className='cursor-pointer text-gray-700 ml-160 hover:text-white' onClick={()=>onClose && onClose()}>X</button>
             <div className='bg-white p-4 rounded-lg shadow-lg w-[45%]'>
                 <div className='flex flex-col gap-2max-w-sm mx-auto p-6 bg-white shadow-lg rounded-lg text-center'>
