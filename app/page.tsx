@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import Header from "./components/Header";
 import RequirementForm from "./components/RequirementForm";
 import ResultTable from "./components/ResultTable";
