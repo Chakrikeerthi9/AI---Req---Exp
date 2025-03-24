@@ -11,7 +11,7 @@ Frontend: React, TypeScript, Tailwind CSS, shadcn/ui
 
 State Management: useState
 
-Backend API Call: Axios
+Backend API Call: Axios, LLM(Mistral)
 
 Component-Based Architecture
 
