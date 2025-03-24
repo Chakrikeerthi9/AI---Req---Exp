@@ -1,9 +1,14 @@
 import React from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
-interface ResultTableProps {
-  result: any[]; // Define the type of your result data if known
-}
+interface ResultItem {
+    Category: string;
+    Details: string;
+  }
+  
+  interface ResultTableProps {
+    result: ResultItem[];
+  }
 
 const ResultTable: React.FC<ResultTableProps> = ({ result }) => {
   console.log("Result:", result);

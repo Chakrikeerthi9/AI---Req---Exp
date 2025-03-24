@@ -23,7 +23,8 @@ export default function Home() {
   const handleExtract = async (requirement:string) =>{
     try {const res= await axios.post('/api', {text: requirement});
         const extractedData = res.data.extractedData;
-        setData((prevResults:ExtractedData[]) => [...prevResults, ...extractedData]); // Append new results to the existing state
+        setData((prevResults:ExtractedData[]) => [...prevResults, ...extractedData]);
+        setCount(count) // Append new results to the existing state
       }
     catch (error) {
           console.error('Error:', error);
