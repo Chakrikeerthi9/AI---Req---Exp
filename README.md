@@ -1,7 +1,7 @@
 ## Project Overview
 
 # Project Name: 
-AI-Powered Data Extraction Tool
+AI-Powered Requirement Extraction with Credit Management
 
 # Description:
 This project is a React-based web application that provides an AI-powered data extraction tool. The application allows users to input requirements, processes the input using an API call, and extracts structured data. The extracted data is displayed in a table format.
